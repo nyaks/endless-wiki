@@ -1,0 +1,18 @@
+{
+  "name": "wiki",
+  "version": "1.0.0",
+  "description": "An encyclopedia where every word is a link. Click any word to dive deeper into an endless chain of knowledge.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.1"
+  }
+}
